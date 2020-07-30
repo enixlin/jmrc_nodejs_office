@@ -1,0 +1,1 @@
+pm2-dev start bin/www
