@@ -56,7 +56,7 @@ router.all("/localToRemote", async function(req, res, next) {
         result = await updatelog(local_date_tf, "tf")
         console.log(result);
     } else {
-        console.log("无需更新远程服务器：信贷中间表");
+        console.log("无需更新远程服务器：信贷中间表 ");
     }
 
 });
